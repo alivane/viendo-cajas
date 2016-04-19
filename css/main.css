@@ -1,0 +1,60 @@
+
+a{
+	text-align: center;
+	text-decoration: none;
+	margin-left:10px;
+	color: grey;
+}
+.center{
+	text-align: center;
+	margin-top: 20px;
+}
+.imagen{
+	width: 55%;
+}
+#grey{
+	background-color: grey;
+	color:white;
+	height: 350px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+.cuadro-get{
+	background-color: #A1A1A1;
+	height: 200px;
+	width: 80%;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 20px;
+}
+.blanco{
+	height: 30px;
+	width: 70%;
+	color:grey;
+	background-color: white;
+    margin: 0 auto;
+    margin-top:10px;
+}
+.blue{
+	height: 30px;
+	width: 70%;
+	color:white;
+	background-color: #18E2DB;
+    margin: 0 auto;
+    margin-top:10px;
+    padding-top: 7px;
+}
+span{
+	color: #031DC4;
+}
+.parra{
+	color: grey;
+}
+@media(min-width: 535px) and (max-width: 824px){
+
+}
+@media(min-width: 824px) and (max-width: 100px){
+
+}
