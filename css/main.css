@@ -1,33 +1,45 @@
-
+header{
+	
+	padding-left: 9%;
+}
+footer{
+	padding: 5% 10% 5% 10%;
+}
 a{
-	text-align: center;
+	
 	text-decoration: none;
 	margin-left:10px;
-	color: grey;
+	text-align: left;
+	font-size: 12px;
+	color: gray;
 }
-.center{
-	text-align: center;
-	margin-top: 20px;
+h1{
+	font-size: 48px;
+	font-family: open sans;
+}
+p{
+	font-size:12px;
 }
 .imagen{
-	width: 55%;
+	width: 50%;
 }
+
 #grey{
 	background-color: grey;
 	color:white;
-	height: 350px;
+	height: auto;
 	margin: 0 auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding:5% 10% 5% 10%;
 
 }
 .cuadro-get{
 	background-color: #A1A1A1;
-	height: 200px;
-	width: 80%;
+	height: 250px;
+	width: 100%;
 	text-align: center;
 	border-radius: 10px;
 	padding-top: 20px;
+	margin: 0 auto;
 }
 .blanco{
 	height: 30px;
@@ -52,9 +64,23 @@ span{
 .parra{
 	color: grey;
 }
-@media(min-width: 535px) and (max-width: 824px){
-
+@media(max-width:375px){
+	.col-6{
+		width: 50%;
+	}
+	.col-7{
+		width: 100%;
+	}
+	.col-5{
+		width: 100%;
+	}
 }
-@media(min-width: 824px) and (max-width: 100px){
-
+@media(min-width:376px) and (max-width: 667px){
+	
+}
+@media(min-width:667px) and (max-width: 1024px){
+	
+}
+@media(min-width:1024px){
+	
 }
